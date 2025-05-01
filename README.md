@@ -76,11 +76,13 @@ Em seguida, adicione o arquivo gerado `index.html` no seu fork.
 
 Por fim, responda as questões abaixo no seu `fork`: 
 
-1. Repositório selecionado: <URL_DO_REPOSITORIO_SELECIONADO_AQUI>
+1. Repositório selecionado: https://github.com/keras-team/keras
 
-2. Gráfico selecionado: <NOME_DO_GRAFICO_SELECIONADO_AQUI>
+2. Gráfico selecionado: Production and test files
   
-3. Explicação: <EXPLICACAO_AQUI>
-
-
-
+3. Explicação: Primeiramente, observa-se que a quantidade de arquivos de produção (production files) é uma função monotonicamente crescente do tempo.
+De fato, esse é o comportamento esperado de um sistema ativo em constante evolução, pois a cada ano há a implementação de novas features e a expansão do sistema como um todo.
+Entretanto, a curva que representa a evolução dos arquivos de testes com o tempo não acompanha esse crescimento monotônico da curva de arquivos de produção.
+Em vias gerais, isso não é um bom indício, pois é esperado que, quando novos arquivos de produção forem feitos, também devem ser gerados novos arquivos de teste.
+Uma possível explicação para a queda do número de arquivos de teste de 2023 para 2024 pode ser uma retirada de arquivos de teste antigos e que testavam classes ou funcionalidades que foram retiradas de 2023 para 2024.
+De fato, houve um grande progresso nos arquivos de produção nesse intervalo de tempo, ou seja, é possível que os arquivos de teste antigos tenham sido retirados por terem se tornados obsoletos.
